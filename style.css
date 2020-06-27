@@ -49,6 +49,7 @@ a:hover {
 
   font-size: 20px;
   font-weight: bold;
+  margin-left: 30px;
 }
 
 #header-nav {
@@ -56,6 +57,7 @@ a:hover {
 
   float: right;
   margin-top: 0;
+  margin-right: 30px;
 }
 
 #header-nav li {
@@ -124,4 +126,8 @@ a:hover {
 
 .about {
   text-align: center;
+}
+
+.fheads {
+  margin-left: 30px;
 }
