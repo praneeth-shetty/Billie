@@ -1,56 +1,83 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title>Praneeth's</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Praneeth's</title>
   </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <a id="header-title" href="index.html">My Blog</a>
-        <ul id="header-nav">
-          <li> <a href="about.html">About</a> </li>
-          <li> <a href="mailto:praneethshetty08474@gmail.com">Contact</a> </li>
-        </ul>
-      </div>
-    </div>
+  <body class="bg-dark text-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="#">Xnaptic</a>
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://praneethshettyy.github.io/Calculator/">Calc</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
 
-    <div id="content">
-      <div class="container">
-        <div class="about">
-          <div class="post-author">
-            <img src="templates/TheWay.jpeg" alt="">
-            <span>Praneeth Shetty</span>
-          </div>
-          <h1 class="post-title">About Me</h1>
-          <div class="post-content">
-            <p>Nothing much to say right now about me. </p>
-            <p>Here I'll post Tech and Software related content,
-              If you want updates follow my social medias, links are give below
-            if you want to contact me head to the contact section.
-          Have a great day..</p>
+      <div id="content">
+        <div class="container">
+          <div class="about">
+            <div class="post-author">
+              <img src="templates/TheWay.jpeg" alt="">
+              <span>Praneeth Shetty</span>
+            </div><br>
+            <h2>About Me</h2>
+            <div class="post-content">
+              <p>Nothing much to say right now about me.
+                Here I'll post Tech and Software related content,
+                If you want updates follow my social medias, links are give below
+                if you want to contact me head to the contact section.
+                Have a great day..
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     <div id="footer">
-      <div class="container">
-        <div class="column">
-          <h4 class="fheads">Follow Me</h4>
-          <p class="fheads"> <a href="https://twitter.com/Xnaptic">Twitter</a> </p>
-          <p class="fheads"> <a href="https://youtube.com/Xnaptic">Youtube</a> </p>
-          <p class="fheads"> <a href="https://reddit.com/praneethshettyy">Reddit</a> </p>
-          <p class="fheads"> <a href="https://instagram.com/praneethshettyy">Instagram</a> </p>
-          <p class="fheads"> <a href="https://discord.gg/7pDGM6K">Discord</a> </p>
-          <p class="fheads"> <a href="https://github.com/praneethshettyy">Github</a> </p>
-        </div>
-        <div class="column">
-          <h4 class="fheads">About Me</h4>
-          <p class="fheads">Software developer, Working on<strong> Artificial Intelligence </strong>hoping to build my own<em> Cyborg</em>..</p>
+        <div class="container">
+          <div class="column">
+            <h4 class="fheads">Follow Me</h4>
+            <p class="fheads"> <a href="https://twitter.com/Xnaptic">Twitter</a> </p>
+            <p class="fheads"> <a href="https://youtube.com/Xnaptic">Youtube</a> </p>
+            <p class="fheads"> <a href="https://www.reddit.com/search?q=u%2Fpraneethshettyy&type=sr%2Cuser">Reddit</a> </p>
+            <p class="fheads"> <a href="https://instagram.com/praneethshettyy">Instagram</a> </p>
+            <p class="fheads"> <a href="https://discord.gg/7pDGM6K">Discord</a> </p>
+            <p class="fheads"> <a href="https://github.com/praneethshettyy">Github</a> </p>
+          </div>
+          <div class="column">
+            <h4 class="fheads">About Me</h4>
+            <p class="fheads">Software developer, Working on<strong> Artificial Intelligence </strong>hoping to build my own<em> Cyborg</em>..</p>
+          </div>
         </div>
       </div>
-    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js"
+    integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
+    crossorigin="anonymous"></script>
   </body>
 </html>
