@@ -5,6 +5,7 @@ body {
   margin: 0;
 
   font-family: 'Montserrat', sans-serif;
+  filter: invert(1) hue-rotate(180deg);
 }
 
 p {
