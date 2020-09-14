@@ -3,6 +3,7 @@
 body {
   color: #555;
   margin: 0;
+  background-color: #000000;
 
   font-family: 'Montserrat', sans-serif;
   filter: invert(1) hue-rotate(180deg);
